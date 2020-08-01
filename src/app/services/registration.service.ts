@@ -6,9 +6,9 @@ import { Router } from '@angular/router';
 })
 export class RegistrationService {
 
-  _url = 'http://localhost:7000/users/register';
-  _url2 = 'http://localhost:7000/users/login';
-  _url3 = 'http://localhost:7000/users/forgot';
+  _url = 'https://hellogdrive.herokuapp.com/users/register';
+  _url2 = 'https://hellogdrive.herokuapp.com/users/login';
+  _url3 = 'https://hellogdrive.herokuapp.com/users/forgot';
   constructor(private _http: HttpClient,private _router:Router) { }
 
   register(user) {

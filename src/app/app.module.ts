@@ -13,6 +13,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { ForgotpassComponent } from './components/forgotpass/forgotpass.component';
 import { DragndropDirective } from './components/dragndrop.directive';
 import { UploadfileComponent } from './components/uploadfile/uploadfile.component';
+import { DetailsuploadComponent } from './components/detailsupload/detailsupload.component';
+import { FormuploadComponent } from './components/formupload/formupload.component';
+import { ListuploadComponent } from './components/listupload/listupload.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { UploadfileComponent } from './components/uploadfile/uploadfile.componen
     NavbarComponent,
     ForgotpassComponent,
     DragndropDirective,
-    UploadfileComponent
+    UploadfileComponent,
+    DetailsuploadComponent,
+    FormuploadComponent,
+    ListuploadComponent
   ],
   imports: [
     BrowserModule,
