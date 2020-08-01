@@ -14,7 +14,7 @@ export class UploadfileService {
  
     formdata.append('file', file);
  
-    const req = new HttpRequest('POST', '/post', formdata, {
+    const req = new HttpRequest('POST', 'https://hellogdrive.herokuapp.com/users/api/files/upload', formdata, {
       reportProgress: true,
       responseType: 'text'
     });
@@ -23,6 +23,6 @@ export class UploadfileService {
   }
  
   getFiles(): Observable<any> {
-    return this.http.get('/getallfiles');
+    return this.http.get('https://hellogdrive.herokuapp.com/users/api/files/all');
   }
 }

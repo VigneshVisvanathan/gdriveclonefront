@@ -14,7 +14,6 @@ import { ForgotpassComponent } from './components/forgotpass/forgotpass.componen
 import { DragndropDirective } from './components/dragndrop.directive';
 import { UploadfileComponent } from './components/uploadfile/uploadfile.component';
 import { DetailsuploadComponent } from './components/detailsupload/detailsupload.component';
-import { FormuploadComponent } from './components/formupload/formupload.component';
 import { ListuploadComponent } from './components/listupload/listupload.component';
 
 @NgModule({
@@ -29,7 +28,6 @@ import { ListuploadComponent } from './components/listupload/listupload.componen
     DragndropDirective,
     UploadfileComponent,
     DetailsuploadComponent,
-    FormuploadComponent,
     ListuploadComponent
   ],
   imports: [

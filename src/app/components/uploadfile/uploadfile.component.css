@@ -37,3 +37,8 @@
 .files-list .delete-file img {
     width: 30px;
 }
+
+.btn-success{
+    margin-left: auto;
+    background-color: black;
+}
